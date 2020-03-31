@@ -1,0 +1,27 @@
+.top-bar{
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: darkmagenta;
+}
+.top-links{
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 55px;
+}
+.menu{
+  cursor: pointer;
+  color: #ffffff;
+}
+.top-left-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 55px;
+}

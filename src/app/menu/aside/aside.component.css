@@ -1,0 +1,23 @@
+.side-bar{
+  width: 200px;
+  position: fixed;
+  height: 100vh;
+  background-color: #efefef;
+  padding: 10px;
+}
+.side-links{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.side-links>div{
+  height: 45px;
+  margin-top: 10px;
+  background-color: #f4faff;
+  width: 100%;
+  border-left: 2px solid darkmagenta;
+  padding: 10px;
+  cursor: pointer;
+}
